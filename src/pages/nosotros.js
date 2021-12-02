@@ -1,7 +1,11 @@
 import React from "react"
-
+import Layout from "../components/layout"
 const Nosotros = () => {
-  return <h2>Nosotros</h2>
+  return (
+    <Layout>
+      <h1>Nosotros</h1>
+    </Layout>
+  )
 }
 
 export default Nosotros
