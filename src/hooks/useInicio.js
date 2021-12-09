@@ -1,7 +1,7 @@
 import { useStaticQuery, graphql } from "gatsby"
 const useInicio = () => {
   const resultado = useStaticQuery(graphql`
-    query MyQuery {
+    query {
       allStrapiPaginas(filter: { nombre: { eq: "Inicio" } }) {
         nodes {
           id
@@ -11,7 +11,14 @@ const useInicio = () => {
             localFile {
               publicURL
               childImageSharp {
-                fluid(maxWidth: 120) {
+                fluid(
+                  maxWidth: 1800
+                  duotone: {
+                    highlight: "#222222"
+                    shadow: "#192550"
+                    opacity: 30
+                  }
+                ) {
                   ...GatsbyImageSharpFluid_withWebp
                 }
               }
