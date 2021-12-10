@@ -1,7 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import BackgroundImage from "gatsby-background-image"
-import { css } from "@emotion/core"
+
 import styled from "@emotion/styled"
 import heroCSS from "../css/hero.module.css"
 const ImageBackground = styled(BackgroundImage)`
