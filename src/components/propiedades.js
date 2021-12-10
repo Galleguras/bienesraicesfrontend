@@ -12,7 +12,7 @@ const Contenido = styled.div`
   @media (min-width: 768px) {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    colum-gap: 5rem;
+    column-gap: 5rem;
   }
 `
 const Sidebar = styled.aside`

@@ -47,7 +47,7 @@ const usePropiedades = () => {
     agentes: propiedad.node.agentes,
     wc: propiedad.node.wc,
     precio: propiedad.node.precio,
-    categoria: propiedad.node.categoria,
+    categoria: propiedad.node.categorias,
   }))
 }
 export default usePropiedades
